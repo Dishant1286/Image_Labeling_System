@@ -5,8 +5,8 @@ const sharp = require('sharp');
 // Configure AWS SDK
 AWS.config.update({
   region: 'us-east-1', // Replace with your region
-  accessKeyId: 'AKIAVRUVTJKOVXHGHDXA', // Replace with your Access Key
-  secretAccessKey: '4xB6ccg8M5XuA4n0CGObZqTfaDElLLGAORBD4spg', // Replace with your Secret Key
+  accessKeyId: 'your access key', // Replace with your Access Key
+  secretAccessKey: 'your secret key', // Replace with your Secret Key
 });
 
 // Create Rekognition and S3 clients
